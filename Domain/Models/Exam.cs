@@ -8,6 +8,7 @@ namespace Domain.Models
     [Serializable, XmlRoot("Exam")]
     public class Exam : IExam, INotifyPropertyChanged
     {
+        //jlr
         private int _id;
         private string _description;
         private DateTime _examinationTimeStart;
